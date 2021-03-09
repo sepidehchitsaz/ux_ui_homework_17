@@ -91,10 +91,11 @@ nav a {
 
 
 .flexbox-container {
+    height: 750px;
     display: flex;
     background-color: #2D333F;
     margin-top: 100px;
-    justify-content: center;
+    justify-content: space-around;
 
 }
     
@@ -102,10 +103,29 @@ nav a {
     width: 440px;
     margin: 100px 20px;
     background-color: #120F11;
+    border-radius: 10px;
 }    
 
 .flexbox-item-1 {
     min-height: 550px;
+    color: #FFC44B;
+    line-height: 50px;
+    
+
+}
+
+h3 {
+    font-family: courgette;
+    font-size: 24px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    
 }
 
 .flexbox-item-2 {
