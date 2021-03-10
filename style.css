@@ -1,6 +1,6 @@
 
 body {
-   background-color: #77C6E3;
+   background-color: #B9D8E4;
    margin: 0px;
    height: 100vh;
 
@@ -102,14 +102,15 @@ nav a {
 .flexbox-item {
     width: 440px;
     margin: 100px 20px;
-    background-color: #120F11;
+    background-image: linear-gradient( #D95525, #120F11 );
     border-radius: 10px;
 }    
 
 .flexbox-item-1 {
     min-height: 550px;
     color: #FFC44B;
-    line-height: 50px;
+    line-height: 1.5;
+
     
 
 }
@@ -131,24 +132,28 @@ p {
 
 .frogs {
     width: 440px;
+    height: 310px;
+    border-radius: 10px, 10px;
 
 }
 .flexbox-item-2 {
     min-height: 550px;
     color: #FFC44B;
-    line-height: 50px;
+    line-height: 1.5;
 }
 
 .click {
     width: 440px;
+    height: 310px;
 }
 
 .flexbox-item-3 {
     min-height: 550px;
     color: #FFC44B;
-    line-height: 50px;
+    line-height: 1.5;
 }
 
 .education {
     width: 440px;
+    height: 310px;
 }
