@@ -13,6 +13,7 @@ h1 {
     font-family: satisfy;
     text-decoration: none;
     margin: 20px;
+    font-weight: 200;
     
 
 }
@@ -50,7 +51,7 @@ h1 {
     position: relative;
     height: 737px;
     overflow: hidden;
-    background-image: url(../ux_ui_homework_17/hero.JPG);
+    background-image: url(hero.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -102,6 +103,7 @@ nav a {
     min-height: 550px;
     color: #FFC44B;
     line-height: 1.5;
+
       
 
 }
@@ -112,6 +114,7 @@ h3 {
     line-height: 1;
     font-size: 24px;
     text-align: center;
+    font-weight: 100;
     
 }
 
@@ -120,6 +123,7 @@ h4 {
     font-size: 24px;
     font-family: courgette;
     line-height: 1;
+    font-weight: 100;
    
     
 }
@@ -129,6 +133,7 @@ h5 {
     font-size: 24px; 
     font-family: courgette;
     line-height: 1;
+    font-weight: 100;
 }
 
 .frogs {
