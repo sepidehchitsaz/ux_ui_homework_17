@@ -6,8 +6,20 @@ body {
 
 }
 
+.hero {
+    position: relative;
+    height: 737px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(hero.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 
-h1 {
+}
+
+
+.logo p {
     color: #77C6E3;
     font-size: 36px;
     font-family: satisfy;
@@ -17,50 +29,49 @@ h1 {
     
 
 }
- .hello, p {
-     
+ .hello p {
+     color: black;
      font-family: caveat;
-     font-size: 24px;
-     margin: 20px 150px;
+     font-size: 36px;
+     margin: 15px;
      display: flex;
      justify-content:flex-end;
+     padding-right: 510px;
      
-     
-     
-
      
  }
      
 
 
 
- .firstline {
-     font-size: 48px;
+ .firstline p {
+     color: black;
+     font-size: 36px;
      margin: 5px;
      font-family: caveat;
      justify-content: flex-end;
-     line-height: 1.5;
+     line-height: 1;
+     padding-left: 800px;
      
        
  }
+
+ .secondline p {
+    color: black;
+    font-size: 36px;
+    margin: 5px;
+    font-family: caveat;
+    justify-content: flex-end;
+    line-height: 1;
+    padding-left: 800px;
+
+ }
  
- 
 
-
-.hero {
-    position: relative;
-    height: 737px;
-    overflow: hidden;
-    background-image: url(hero.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-
-}
 
 .navigation {
     margin: 20px;
-    line-height: 700px;
+    line-height: 800px;
     float: right;
     
     
@@ -173,7 +184,6 @@ h5 {
     font-size: 18px;
     font-family: courgette;
     margin: 20px;
-    text-align: right;
     margin-top: 200px;
 
 }
@@ -181,14 +191,42 @@ h5 {
 .email {
     height: 50px;
     margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+    margin-left: 650px;
 }
 
 .facebook {
     height: 50px;
     margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
+    
 }
 
 .linkedin {
     height: 45px;
     margin: 5px;
+    position: relative;
+    bottom: 100px;
+    float: left;
 }
+
+.copyright {
+    height: 40px;
+    margin-top: 50px;
+    padding-left: 370px;
+    
+}
+
+h6 {
+    font-family: courgette;
+    font-size: 24px;
+    float: right;
+    margin-right: 20px;
+    font-weight: 100;
+
+}
+
