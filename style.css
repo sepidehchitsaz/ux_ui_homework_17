@@ -23,9 +23,10 @@ h1 {
     
 
 }
- h2 {
+ .hello , p {
+     
      font-family: caveat;
-     font-size: 36px;
+     font-size: 48px;
      margin: 20px;
      display: flex;
      justify-content: center;
@@ -37,10 +38,9 @@ h1 {
 
 
 
- p {
-     font-size: 36px;
+ .firstline {
+     font-size: 48px;
      margin: 5px;
-     text-align:right;
      font-family: caveat;
      justify-content: flex-end;
      line-height: 1.5;
@@ -48,17 +48,7 @@ h1 {
        
  }
  
-.me {
-    width: 300px;
-    clip-path: circle();
-    float: right;
-    margin: 60px 100px;
-  
-}
-    
-
-
-
+ 
 
 
 .hero {
@@ -74,7 +64,8 @@ h1 {
 
 .navigation {
     margin: 20px;
-    line-height: 800px;
+    line-height: 700px;
+    float: right;
     
     
 
@@ -165,4 +156,14 @@ p {
     width: 440px;
     height: 310px;
     border-radius: 10px 10px 0px 0px;
+}
+
+.footer {
+    font-size: 18px;
+    font-family: courgette;
+    margin: 20px;
+    text-align: right;
+    margin-top: 200px;
+    
+
 }
