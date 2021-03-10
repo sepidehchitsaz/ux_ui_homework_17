@@ -175,6 +175,20 @@ h5 {
     margin: 20px;
     text-align: right;
     margin-top: 200px;
-    
 
+}
+
+.email {
+    height: 50px;
+    margin: 5px;
+}
+
+.facebook {
+    height: 50px;
+    margin: 5px;
+}
+
+.linkedin {
+    height: 45px;
+    margin: 5px;
 }
