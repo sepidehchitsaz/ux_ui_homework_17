@@ -23,13 +23,14 @@ h1 {
     
 
 }
- .hello , p {
+ .hello, p {
      
      font-family: caveat;
      font-size: 48px;
-     margin: 20px;
+     margin: 20px 150px;
      display: flex;
-     justify-content: center;
+     justify-content:flex-end;
+     
      
 
      
