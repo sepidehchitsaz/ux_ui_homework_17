@@ -4,13 +4,6 @@ body {
    margin: 0px;
    height: 100vh;
 
-    
-
-
-
-
-
-
 }
 
 
@@ -26,10 +19,11 @@ h1 {
  .hello, p {
      
      font-family: caveat;
-     font-size: 48px;
+     font-size: 24px;
      margin: 20px 150px;
      display: flex;
      justify-content:flex-end;
+     
      
      
 
@@ -108,24 +102,33 @@ nav a {
     min-height: 550px;
     color: #FFC44B;
     line-height: 1.5;
-
-    
+      
 
 }
 
 h3 {
     font-family: courgette;
     font-size: 24px;
-    line-height: 50px;
+    line-height: 1;
     font-size: 24px;
     text-align: center;
+    
 }
 
-p {
+h4 {
     text-align: center;
     font-size: 24px;
+    font-family: courgette;
+    line-height: 1;
+   
     
-    
+}
+
+h5 {
+    text-align: center;
+    font-size: 24px; 
+    font-family: courgette;
+    line-height: 1;
 }
 
 .frogs {
